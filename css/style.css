@@ -130,11 +130,82 @@
     color: rgb(255, 144, 14);
 }
 
+.enjoy-feature{
+    margin-top: 100px;
+    gap: 100px;
+    
 
+}
 
+#feature-enjoy-border{
+   border-left: 5px solid rgb(255, 144, 14);
+   padding-left: 21px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+.enjoy-feature-title{
+    color: rgb(19, 19, 19);
+
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-top: 0px;
+    
+}
+.enjoy-description{
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.enjoy-feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.feature-card-title{
+    color: rgb(19, 19, 19);
+
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.feature-card-description{
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.enjoy-feature-img{
+    position: relative;
+    display: inline-block;
+}
+.feat-img{
+    display: block;
+}
+
+.experiance{
+    position: absolute;
+    bottom:-1%;
+    left: -12%;
+    padding: 45px 42px 45px 42px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 144, 14);
+    border: none;
+    
+    
+}
+.main-ex{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
 
 @media screen and (max-width:576px) {
-    .navber{
+    .navber,.enjoy-feature{
         flex-direction: column;
         justify-items: center;
         
@@ -159,9 +230,14 @@
         margin-bottom: 20px;
         text-align: center;
     }
-    .our-feature-img img{
+    
+    .enjoy-feature-img img{
         width: 100%;
     }
+    .enjoy-description{
+        text-align: center;
+    }
+    
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -176,6 +252,16 @@
         margin-bottom: 20px;
         text-align: center;
     }
-    
+    .enjoy-feature{
+        flex-direction: column;
+        justify-items: center;
+        
+    }
+    .enjoy-feature-img img{
+        width: 100%;
+    }
+    .experiance{
+        left: 10px;
+    }
 
 }
