@@ -215,6 +215,12 @@
         flex-direction: column-reverse;
         
     }
+    .our-feature-img{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .our-feature-img img{
+        width: 100%;
+    }
     .banner-img img{
         width: 100%;
     }
@@ -236,6 +242,10 @@
     }
     .enjoy-description{
         text-align: center;
+    }
+    .experiance{
+        bottom:-0%;
+        left: -5%;
     }
     
 }
