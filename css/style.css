@@ -204,6 +204,53 @@
     font-weight: 700;
 }
 
+.fact-title{
+    color: rgb(19, 19, 19);
+    margin-top: 100px;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.fact-description{
+   max-width:542px;
+   color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400; 
+}
+.fact{
+   max-width: 241.83px;
+   height: 241.83px;
+   box-sizing: border-box;
+   border: 1px solid rgb(255, 144, 14);
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   
+
+}
+
+.fact-conteinar{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 70px;
+    
+}
+.fact h4{
+    color: rgb(66, 66, 66);
+    font-size: 2.8rem;
+    font-weight: 600;
+
+}
+.fact p{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
 @media screen and (max-width:576px) {
     .navber,.enjoy-feature{
         flex-direction: column;
@@ -246,6 +293,13 @@
     .experiance{
         bottom:-0%;
         left: -5%;
+    }
+    .fact-conteinar{
+        grid-template-columns: repeat(2,1fr);
+        gap: 4px;
+    }
+    .fact{
+        width: 100%;
     }
     
 }
