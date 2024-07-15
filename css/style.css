@@ -118,7 +118,7 @@
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 20px;
-    text-align: left;
+    
 }
 
 
@@ -159,4 +159,14 @@
     .banner-img img{
         width: 100%;
     }
+    .our-feature{
+        flex-direction: column-reverse;
+    }
+    .our-feature-text{
+        margin-left: 2px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+
 }
